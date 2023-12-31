@@ -1,0 +1,173 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");  */
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+} 
+
+body { 
+	font-family: "Lobster", sans-serif; 
+	display: flex; 
+    /* background-image: url(bg-PhotoRoom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #5F0F40;
+} 
+
+canvas { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	pointer-events: none; 
+} 
+
+.container { 
+	color: white; 
+	width: 550px; 
+	padding: 2%; 
+	background-color: #FB8B24; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	margin: auto; 
+	margin-top: 50px; 
+	border-radius: 10px; 
+	box-shadow: 2px 4px 8px #0d2146; 
+} 
+
+.heading { 
+	color: #fff; 
+} 
+
+.card { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: space-around; 
+	height: 70%; 
+	width: 50%; 
+	margin: 50px 0; 
+	/* background-color: #fff; */
+	border-radius: 10px; 
+} 
+
+.decor-container__upper { 
+	display: flex; 
+	justify-content: space-around; 
+} 
+
+.decor-container { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+
+.strings { 
+	height: 0; 
+	width: 0.3rem; 
+} 
+
+.bulb { 
+	height: 100px; 
+	width: 100px; 
+	border-radius: 50%; 
+	background-color: transparent; 
+} 
+
+.string1 { 
+	height: 100px; 
+	background-color: #adeb9c; 
+} 
+
+.bulb1 { 
+	background-color: #9A031E; 
+} 
+
+.string2 { 
+	transition: all infinite ease-in; 
+	height: 180px; 
+	background-color: #f1a5c5; 
+} 
+
+.bulb2 { 
+	background-color: rgb(7, 96, 96); 
+} 
+
+.string3 { 
+	transition: all infinite ease-in; 
+	height: 60px; 
+	background-color: #d997dc; 
+} 
+
+.bulb3 { 
+	background-color: rgb(146, 14, 146); 
+} 
+
+.string4 { 
+	transition: all infinite ease-in; 
+	height: 150px; 
+	background-color: #d4db8a; 
+} 
+
+.bulb4 { 
+	background-color: #9A031E; 
+} 
+
+.text-container { 
+	text-align: center; 
+	color: #fff; 
+} 
+
+.text-container h2 { 
+	font-size: 40px; 
+	letter-spacing: 3px; 
+    
+} 
+.text-container .text{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Sevillana', cursive;
+    font-style: italic;
+    color: rgb(108, 9, 71);
+    font-weight: 900;
+}
+
+.clock { 
+	display: flex; 
+	font-size: 3rem; 
+} 
+
+.digit-container { 
+	width: 50px; 
+	height: 60px; 
+	background-color: #333; 
+	color: #fff; 
+	text-align: center; 
+	margin: 0 5px; 
+	border-radius: 5px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	overflow: hidden; 
+	position: relative; 
+} 
+
+.digit { 
+	position: absolute; 
+	width: 100%; 
+	bottom: 0; 
+	/* opacity: 0; */
+	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+	color: white; 
+} 
+.two{
+    color: #9A031E;
+}
+.zero{
+    color: rgb(9, 159, 159);
+}
+.four{
+    color: rgb(97, 11, 97);
+}
